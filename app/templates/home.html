@@ -1,3 +1,73 @@
-<h1>Hola mundo</h1>
-<p> Bienvenido a mi primera aplicación de flask, </p>
-<p> durante el desarrollo de la misma nos la pasaremos muy bien. </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do's App</title>
+</head>
+<body>
+  <h1>Bienvenido a mi To Do's app</h1>
+  <button>Agregar nuevo pendiente</button>
+
+  <!-- Tabla de Pendientes -->
+  <h2>Pendientes</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Acción</th>
+        <th>Eliminar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Acabar Programación Avanzada</td>
+        <td>Necesito acabar todos los temas</td>
+        <td><button>Mover a "En proceso"</button></td>
+        <td><button>Eliminar</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla de En proceso -->
+  <h2>En proceso</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Acción</th>
+        <th>Eliminar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Evaluar a estudiantes</td>
+        <td>Le están echando ganas</td>
+        <td><button>Mover a "Finalizado"</button></td>
+        <td><button>Eliminar</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Tabla de Finalizado -->
+  <h2>Finalizado</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Acción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Desayunar</td>
+        <td>Si tan solo alguien me invitara a desayunar</td>
+        <td><button>Eliminar</button></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
